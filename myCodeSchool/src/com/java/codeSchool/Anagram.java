@@ -1,5 +1,5 @@
 package com.java.codeSchool;
-	
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
@@ -7,16 +7,18 @@ import java.util.Set;
 import java.util.TreeMap;
 
 public class Anagram {
+
 	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 
+		System.out.println();
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter 1st Value : ");
 		String str1 = sc.next();
 		System.out.println("Enter 2nd Value : ");
 		String str2 = sc.next();
-		 
+
 		Map<String, Integer> map1 = new TreeMap<String, Integer>();
 		Map<String, Integer> map2 = new TreeMap<String, Integer>();
 		if (str1.length() == str2.length()) {
@@ -65,7 +67,7 @@ public class Anagram {
 			}
 		}
 
-		if(sts) {
+		if (sts) {
 			System.out.println("YES");
 		} else {
 			System.out.println("NO");
