@@ -1,4 +1,4 @@
-package com.test;
+package com.java.codeSchool;
 
 import java.util.Scanner;
 

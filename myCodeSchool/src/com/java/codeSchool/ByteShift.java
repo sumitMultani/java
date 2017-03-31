@@ -1,4 +1,4 @@
-package com.test;
+package com.java.codeSchool;
 
 class ByteShift {
 
